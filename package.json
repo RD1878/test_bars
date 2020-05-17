@@ -1,5 +1,6 @@
 {
   "name": "addres_book",
+  "homepage": "rd1878.github.io/test_bars/",
   "version": "1.0.0",
   "description": "v.0.0.2",
   "main": "index.js",
@@ -9,12 +10,14 @@
     "deploy": "cross-env NODE_ENV=production gh-pages -d dist"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/RD1878/test_bars.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
+    "url": "https://github.com/RD1878/test_bars/issues"
   },
   "devDependencies": {
     "@babel/cli": "7.8.4",
