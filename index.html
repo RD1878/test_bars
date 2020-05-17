@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Address Book</title>
+  <link rel="stylesheet" href="style.165035c9a7fe3497c1fb.css">
+</head>
+<body>
+  <div class="root">
+    <main class="content">
+      <h1 class="title">Данные медицинских учреждений</h1>
+      <div class=table>
+        <div class="table__columns">
+          <div class="table__column table__column-name">Наименование учреждения</div>
+          <div class="table__column table__column-address">Адрес</div>
+          <div class="table__column table__column-phone">Телефон</div>
+          <div class="table__column table__column-button">Удалить</div>
+        </div>
+      </div>
+      <button type="button" class="button__add">Добавить учреждение</button>
+      <div class="popup">
+        <h3 class=popup__title>Добавить информацию по медучреждению</h3>
+        <form class="popup__form" name="info">
+          <input type="text" name="name" class="popup__input popup__input-name" placeholder="Название">
+          <input type="text" name="address" class="popup__input popup__input-address" placeholder="Адрес">
+          <input type="text" name="phone" class="popup__input popup__input-phone" placeholder="Телефон">
+          <button type="submit" class="popup__button-ok">OK</button>
+          <button type="button" class="popup__button-cancel" >Отмена</button>
+        </form>
+      </div>
+    </main>
+  </div>
+  <script src="main.68a9e5811823f57a8fbb.js"></script>
+</body>
+</html>
